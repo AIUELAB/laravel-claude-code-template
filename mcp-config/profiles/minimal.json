@@ -1,0 +1,10 @@
+{
+  "description": "Minimal MCP configuration for Laravel development (~600 tokens)",
+  "note": "Use this profile for maximum performance. Add other MCPs as needed.",
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/project"]
+    }
+  }
+}
